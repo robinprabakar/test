@@ -122,7 +122,7 @@ variable "SpkAppSnet" {
     default = "App-Spoke-Snet"
 }
 
-variable "SpkDBSub" {
+variable "SpkDBSnet" {
     default = "DB-Spoke-Snet"
 }
 
