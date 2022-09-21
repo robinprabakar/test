@@ -34,7 +34,7 @@ resource "azurerm_subnet" "SpkAppSub" {
 }
 
 resource "azurerm_subnet" "SpkDBSub" {
-  name                 = var.SpkDbSnet
+  name                 = var.SpkDBSnet
   resource_group_name  = var.Spoke_resource_group_name
   virtual_network_name = var.Spoke_virtual_network
   address_prefixes     = ["10.1.1.0/24"]
